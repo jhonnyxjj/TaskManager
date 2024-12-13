@@ -1,0 +1,20 @@
+{
+    "name": "jhonnyxjj/task-manager",
+    "version": "1.0.0",
+    "description": "Gerenciador de tarefas",
+    "autoload": {
+        "psr-4": {
+            "project\\app\\": "project/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jhonnyxjj",
+            "email": "gjhonnybr@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "nikic/fast-route": "^1.3"
+    }
+}
